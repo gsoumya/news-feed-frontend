@@ -1,0 +1,70 @@
+.main-container {
+    border: 2px;
+    width:80%;
+    float: right;
+    border-color:blue;
+    border-style: solid;
+}
+
+.sub-div {
+    margin: 20px;
+    padding: 20px;
+    border: 1px;
+    border-style:solid;
+    border-color:black;
+}
+.sub-feed-div {
+   height: 60%;
+   display: flex;
+   flex-direction: row;
+}
+
+.sub-share-div {
+  width: 30px;
+  height: 20%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.sub-share-div-items {
+    width: 100px;
+
+    display: flex;
+    flex-direction: row;  
+}
+
+.sub-share-div  > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+   
+    font-size: 15px;
+  }
+
+.sub-comment-div {
+ 
+  height: 10%;
+}
+
+.profile-div {
+    max-width: 30%;
+    height: 10%;
+}
+
+.new-feed {
+    padding: 10px;
+}
+.row-divide {
+    border-top: black groove 1pt;
+}
+
+div img {
+    margin: 10px
+}
+
+.comment-input {
+    border: black groove 2px;
+    border-radius: 10px;
+    width: 70%;
+}

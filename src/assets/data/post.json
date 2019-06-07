@@ -1,0 +1,84 @@
+[{
+    "id": 1,
+    "name": "Soumya",
+    "image": "src/assets/images/image.png",
+    "designation": "Software Engineer",
+    "post": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+    "likes": 10,
+    "comments": [
+        {
+            "id": 1,
+            "name": "Soumya",
+            "image": "src/assets/images/image.png",
+            "comment": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+        },
+        {
+            "id": 1,
+            "name": "Soumya",
+            "image": "src/assets/images/image.png",
+            "comment": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+        },
+        {
+            "id": 1,
+            "name": "Soumya",
+            "image": "src/assets/images/image.png",
+            "comment": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+        }
+    ]
+},
+{
+    "id": 2,
+    "name": "Soumya",
+    "image": "src/assets/images/image.png",
+    "designation": "Software Engineer",
+    "post": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+    "likes": 10,
+    "comments": [
+        {
+            "id": 1,
+            "name": "Soumya",
+            "image": "src/assets/images/image.png",
+            "comment": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+        },
+        {
+            "id": 1,
+            "name": "Soumya",
+            "image": "src/assets/images/image.png",
+            "comment": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+        },
+        {
+            "id": 1,
+            "name": "Soumya",
+            "image": "src/assets/images/image.png",
+            "comment": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+        }
+    ]
+},
+{
+    "id": 3,
+    "name": "Soumya",
+    "image": "src/assets/images/image.png",
+    "designation": "Software Engineer",
+    "post": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy",
+    "likes": 10,
+    "comments": [
+        {
+            "id": 1,
+            "name": "Soumya",
+            "image": "src/assets/images/image.png",
+            "comment": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+        },
+        {
+            "id": 1,
+            "name": "Soumya",
+            "image": "src/assets/images/image.png",
+            "comment": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+        },
+        {
+            "id": 1,
+            "name": "Soumya",
+            "image": "src/assets/images/image.png",
+            "comment": " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy"
+        }
+    ]
+}]

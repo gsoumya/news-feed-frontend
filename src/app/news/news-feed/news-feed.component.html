@@ -1,0 +1,68 @@
+<div class="main-container">
+  <div class="sub-div" *ngFor="let feed of newsFeeds async ">
+    <div class="sub-feed-div">
+      <div class="profile-div">
+        <img src="../../../assets/images/image1.jpg">
+      </div>
+      <div>
+        <p>{{feed.name}}</p>
+        <p>{{feed.designation}}</p>
+      </div>
+    </div>
+
+    <div class="new-feed">
+      {{feed.post}}
+
+
+    </div>
+
+    <div class="sub-share-div">
+      <div>
+        <img src="../../../assets/images/like.png">
+      </div>
+      <div>
+        <img src="../../../assets/images/comment.png">
+      </div>
+      <div>
+        <span>{{feed.likes}}</span>
+        <span>{{feed.comments.length}} comments</span>
+      </div>
+
+    </div>
+    <div class="row-divide"></div>
+    <div class="sub-share-div">
+      <div class="sub-share-div-items">
+        <img src="../../../assets/images/like.png">
+        <a href="javascript.void(0)">Like</a>
+      </div>
+      <div class="sub-share-div-items">
+        <img src="../../../assets/images/comment.png">
+        <a (click)="openComment()">Comment</a>
+      </div>
+      <div class="sub-share-div-items">
+        <img src="../../../assets/images/share.png">
+        <a href="javascript.void(0)">Share</a>
+      </div>
+    </div>
+    <div *ngIf="isopencomment">
+
+      <div class="sub-feed-div">
+        <img src="../../../assets/images/user.png">
+
+        <input type="text" class="comment-input">
+      </div>
+      <div class="sub-feed-div" *ngFor="let comment of feed.comments">
+        <div>
+          <img src="../../../assets/images/user.png">
+        </div>
+        <div>
+          {{comment.comment}}
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
